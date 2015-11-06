@@ -1,0 +1,39 @@
+body ul li {
+	font-family: Verdana;
+	color: blue;
+	padding: 10px;
+	border: 2px solid green;
+	border-width: 10px;
+}
+
+body {
+	height: 1000px;
+}
+
+.static {
+	position: static;
+}
+
+.relative {
+	position: relative;
+	top: 25%;
+	left: 25%;
+	bottom: 100px;
+}
+
+.fixed {
+	position: fixed;
+	right: 0px;
+	bottom: 0px
+}
+
+.absolute {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}
+
+#navbar {
+	bottom: 0px;
+	left: 0px;
+}
