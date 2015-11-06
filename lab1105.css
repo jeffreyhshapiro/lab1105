@@ -33,7 +33,9 @@ body {
 	top: 50%;
 }
 
-#navbar {
+.navbar {
+	position: fixed;
 	bottom: 0px;
 	left: 0px;
+	border: 2px solid orange
 }
